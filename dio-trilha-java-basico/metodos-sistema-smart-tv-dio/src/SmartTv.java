@@ -3,7 +3,7 @@ public class SmartTv {
     int volume = 25;
     int canal = 1;
     
-    public void ligar(){
+    public void ligar() {
         estadoTv = true;
         System.out.println("A TV está ligada");
     }
@@ -42,7 +42,4 @@ public class SmartTv {
         canal--;
 
     }
-    
-    
-
 }

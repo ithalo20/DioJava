@@ -1,7 +1,7 @@
 public class Usuario {
     public static void main(String[] args) throws Exception {
         
-        SmartTv smartTv = new SmartTv(); //Ele jogou a classe SmartTv e convertou para a classe com o metodo principal
+        SmartTv smartTv = new SmartTv(); //Ele pegou a classe SmartTv e convertou para a classe com o metodo principal
 
 
         //Estado ligado ou desligado
@@ -22,7 +22,6 @@ public class Usuario {
         smartTv.diminuirVolume();
         smartTv.aumentarVolume();
         System.out.println("Volume Atual: " + smartTv.volume);
-        
         
     }
 }
