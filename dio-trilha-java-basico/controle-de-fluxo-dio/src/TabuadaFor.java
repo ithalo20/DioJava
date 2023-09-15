@@ -9,6 +9,8 @@ public class TabuadaFor {
         System.out.println("\n --- Tabuado do " + numero + " ---\n");
         for (int contador = 1; contador <= 10; contador++) {
             System.out.println(numero + " x " + contador + " = " + numero * contador);
+
+        scanner.close();
         }
     }
 }
