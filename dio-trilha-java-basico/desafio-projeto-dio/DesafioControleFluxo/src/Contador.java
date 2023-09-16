@@ -20,17 +20,18 @@ public class Contador {
 		
 	}
 
+	// lançar excelçao personalizada, la da outra classe
 	static void contar(int parametroUm, int parametroDois ) throws ParametrosInvalidosException {
-		//validar se parametroUm é MAIOR que parametroDois e lançar a exceção
+		//validar se parametroUm é MAIOR que parametroDois e lançar a exceção personalizada
 		if (parametroUm >= parametroDois) {
 			throw new ParametrosInvalidosException();
 		}
 
 		int contagem = parametroDois - parametroUm;
-		//realizar o for para imprimir os números com base na variável contagem
 		
 		System.out.println("\n-- Impressão de variação de contagem -- \n");
 		
+		//realizar o for para imprimir os números com base na variável contagem
 		for (int indice = 0; indice < contagem; indice++) // é < pq esta como +1 o indice no syout, se n ultrapassaria o numero da variavel contagem
 			System.out.println("Imprimindo a variação da contagem da subtração: " + (indice+1)); 
 	}	
