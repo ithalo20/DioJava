@@ -41,7 +41,7 @@ public class CatalogoLivros {
     }
 
     public Livro pesquisarPorTitulo(String titulo){
-        Livro livroPorTitulo = null; //está null, pq ainda n temos nenhum objeto do tipo livro
+        Livro livroPorTitulo = null; //null, pois livroPorTitulo até o momento está vazio.
         if(!livroList.isEmpty()) {
             for (Livro livro : livroList) {
                 if (livro.getTitulo().equalsIgnoreCase(titulo)) {
